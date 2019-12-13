@@ -1,0 +1,32 @@
+{
+  "center": {
+    "lat": 52.249839,
+    "lng": -7.137641
+  },
+  "places": [
+    {
+      "id": 1,
+      "name": "flowershop1",
+      "lat": 52.253859,
+      "lng": -7.136836
+    },
+    {
+      "id": 2,
+      "name": "flowershop2",
+      "lat": 52.252938,
+      "lng": -7.138959
+    },
+    {
+      "id": 3,
+      "name": "flowershop3",
+      "lat": 52.252247,
+      "lng": -7.137290
+    },
+    {
+      "id": 4,
+      "name": "flowershop4",
+      "lat": 52.252475,
+      "lng": -7.138543
+    }
+  ]
+}
