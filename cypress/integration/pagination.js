@@ -11,17 +11,17 @@ describe('admin login', () => {
     cy.wait(1000)
     cy.url()
         .should('include', 'http://localhost:8080/#/')
-    cy.request('http://localhost:3000/admin/product/')
+    cy.request('https://flowershop-master.herokuapp.com/admin/product/')
         .its('body')
         .then(products => {
           products.forEach(element => {
-            cy.request('DELETE', `${'http://localhost:3000/admin/product/'}${element._id}`)
+            cy.request('DELETE', `${'https://flowershop-master.herokuapp.com/admin/product/'}${element._id}`)
           })
         })
     cy.fixture('products').then(products => {
       // eslint-disable-next-line no-unused-vars
       products.forEach(product => {
-        cy.request('POST', `${'http://localhost:3000/admin/product/'}`, product)
+        cy.request('POST', `${'https://flowershop-master.herokuapp.com/admin/product/'}`, product)
       })
     })
     cy.visit(URL)
