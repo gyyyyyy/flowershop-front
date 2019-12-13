@@ -1,0 +1,10 @@
+{
+  "name": "flowershop-front",
+  "version": "1.0.0",
+  "description": "A Vue.js project",
+  "author": "Yiyuan Gao",
+  "private": true,
+  "scripts": {
+    "postinstall": "npm install express"
+  }
+}
