@@ -1,5 +1,5 @@
 # Flowershop-front
-
+- [Youtube](https://youtu.be/xwDiNY9fEPI)
 - Table Of Contents
   - [Fowershop-front](#Flowershop-front)
     * [Basic Information](#basic-information)
@@ -23,7 +23,7 @@
 ## Usage
 - Clone:
 ```
-git clone https://github.com/Sam1224/Take-Away-AS-Frontend.git
+git clone https://github.com/gyyyyyy/flowershop-front.git
 ```
 - Configure:
 ```
