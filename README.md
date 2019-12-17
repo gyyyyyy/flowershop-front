@@ -95,7 +95,7 @@ npm run cypress:open
       - Image Inputer API.
 ## UML Diagrams
 - Use case diagrams:
-  ![](./assets/usercase.png)
+  ![](./assets/usecase.png)
 
 ## Database Schemas
 >There are `4` very `complex` and `nested` schemas adopted in the server of this application.
